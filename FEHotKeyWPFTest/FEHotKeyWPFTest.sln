@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEHotKeyWPFTest", "FEHotKeyWPFTest\FEHotKeyWPFTest.csproj", "{F8746B3E-7713-4216-9405-EB49A24D933E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA170A58-5E30-4C90-A775-154A08C5A586} = {CA170A58-5E30-4C90-A775-154A08C5A586}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEHotKeyWPF", "..\FEHotKeyWPF\FEHotKeyWPF\FEHotKeyWPF.csproj", "{CA170A58-5E30-4C90-A775-154A08C5A586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8746B3E-7713-4216-9405-EB49A24D933E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8746B3E-7713-4216-9405-EB49A24D933E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8746B3E-7713-4216-9405-EB49A24D933E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8746B3E-7713-4216-9405-EB49A24D933E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA170A58-5E30-4C90-A775-154A08C5A586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA170A58-5E30-4C90-A775-154A08C5A586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA170A58-5E30-4C90-A775-154A08C5A586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA170A58-5E30-4C90-A775-154A08C5A586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F50DCF6-B1FE-463F-9B39-555D2F163E73}
+	EndGlobalSection
+EndGlobal
